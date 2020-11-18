@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+h1, .paragraph, .btn__main {
+    margin: 5% 5% 0 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.btn__main {
+    background-color: rgb(187, 89, 23);
+    border: none;
+    padding: 1.25rem 2rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.btn__main:hover {
+    background-color: rgba(187, 89, 23, 0.75);
+    outline: none;
+}
+
+.btn__main:focus {
+    outline: none;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__content {
+    width: 50%;
+    background-color: #fff;
+}
+
+.close__button {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.modal__footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.btn__modal--green {
+    background-color: #53a723;
+    margin-right: 1rem;
+}
+
+.btn__modal--red {
+    background-color: #d81d1d;
+}
+
+.btn__modal--green, .btn__modal--red {
+    padding: 1rem 2rem;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
