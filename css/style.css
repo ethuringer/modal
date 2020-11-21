@@ -77,6 +77,9 @@ p {
 
 .modal__content {
     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     width: 100%;
     background-color: #fff;
     padding: 2rem 2rem;
@@ -117,8 +120,9 @@ p {
     margin-right: 1rem;
 }
 
-.btn__modal--green:hover {
+.btn__modal--green:hover, .btn__modal--green:focus {
     background-color: #53a72390;
+    outline: none;
 }
 
 
@@ -126,11 +130,8 @@ p {
     background-color: #d81d1d;
 }
 
-.btn__modal--red:hover {
-    background-color: #d81d1d90;
-}
-
-.btn__modal--green:hover, .btn__modal--green:focus, 
 .btn__modal--red:hover, .btn__modal--red:focus {
+    background-color: #d81d1d90;
     outline: none;
 }
+
