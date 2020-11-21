@@ -5,9 +5,11 @@
         btn.addEventListener('click', () => {
         modal.classList.add ('modal__visible'),
         modalOverlay.classList.add('overlay__visible')
-    });
+        });
     }
 })();
+
+
 
 (function hideModal() {
     const modal = document.querySelector('.modal');
