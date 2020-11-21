@@ -21,11 +21,12 @@
     </div>
 
     <button class="btn__main">Show Modal</button>
+    
+    <div class="modal__overlay"></div>
 
     <div class="modal">
-         <div class="modal__overlay"></div>
             <div class="modal__content">
-                <span class="close__button">&times;</span>
+                <span class="close__button" tabindex="3">&times;</span>
                 <div class="modal__header">
                     <h2>CSSScript.com</h2>
                 </div>
@@ -36,11 +37,10 @@
                         molestiae odit voluptatem sequi.</p>
                 </div>
                 <div class="modal__footer">
-                    <button class="btn__modal--green">Okey</button>
-                    <button class="btn__modal--red">Cancel</button>
+                    <button class="btn__modal--green" tabindex="1">Okey</button>
+                    <button class="btn__modal--red" tabindex="2">Cancel</button>
                 </div>
             </div>
-        
     </div>
 
     <script src="./js/modal.js"></script>
